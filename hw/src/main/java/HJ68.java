@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -26,17 +24,19 @@ public class HJ68 {
             }
             table.entrySet().stream().sorted((k1, k2) -> {
                 if (sort == 1) {
-                    if (k1.getValue() != k2.getValue())
+                    if (!Objects.equals(k1.getValue(), k2.getValue()))
                         return k1.getValue() - k2.getValue();
                     return 0;
                 } else {
-                    if (k1.getValue() != k2.getValue())
+                    if (!Objects.equals(k1.getValue(), k2.getValue()))
                         return k2.getValue() - k1.getValue();
-                    return -1;
+                    return 0;
                 }
             }).collect(Collectors.toList()).forEach(entry -> {
                 System.out.println(entry.getKey() + " " + entry.getValue());
             });
+
+
         }
     }
 }
