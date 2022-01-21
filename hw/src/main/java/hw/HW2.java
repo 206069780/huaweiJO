@@ -1,3 +1,5 @@
+package hw;
+
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -6,7 +8,7 @@ import java.util.Scanner;
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW2.java
+ * @ClassName hw.HW2.java
  * @Description 计算某字符出现次数
  * @createTime 2022年01月18日 09:21:00
  */

@@ -1,9 +1,11 @@
+package hw;
+
 import java.util.Scanner;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW33.java
+ * @ClassName hw.HW33.java
  * @Description 整数与IP地址间的转换
  * @createTime 2022年01月19日 13:11:00
  */

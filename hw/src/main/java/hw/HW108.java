@@ -1,10 +1,11 @@
+package hw;
 
 import java.util.*;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW108.java
+ * @ClassName hw.HW108.java
  * @Description 求最小公倍数
  * @createTime 2022年01月20日 15:19:00
  */

@@ -1,9 +1,11 @@
+package hw;
+
 import java.util.Scanner;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW99.java
+ * @ClassName hw.HW99.java
  * @Description 自守数
  * @createTime 2022年01月20日 16:56:00
  */

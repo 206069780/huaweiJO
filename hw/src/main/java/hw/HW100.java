@@ -1,9 +1,11 @@
+package hw;
+
 import java.util.Scanner;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW100.java
+ * @ClassName hw.HW100.java
  * @Description 等差数列
  * @createTime 2022年01月20日 15:25:00
  */

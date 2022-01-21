@@ -1,9 +1,11 @@
+package hw;
+
 import java.util.Scanner;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW4.java
+ * @ClassName hw.HW4.java
  * @Description 字符串分隔
  * @createTime 2022年01月18日 09:39:00
  */

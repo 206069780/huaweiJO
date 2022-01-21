@@ -1,3 +1,5 @@
+package hw;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -5,7 +7,7 @@ import java.util.Scanner;
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW23.java
+ * @ClassName hw.HW23.java
  * @Description 删除字符串中出现次数最少的字符
  * @createTime 2022年01月18日 17:16:00
  */

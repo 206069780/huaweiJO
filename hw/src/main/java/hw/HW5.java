@@ -1,3 +1,5 @@
+package hw;
+
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -6,7 +8,7 @@ import java.util.Scanner;
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW5.java
+ * @ClassName hw.HW5.java
  * @Description 进制转换
  * @createTime 2022年01月18日 10:51:00
  */

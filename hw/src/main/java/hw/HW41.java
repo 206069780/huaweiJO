@@ -1,10 +1,11 @@
+package hw;
 
 import java.util.*;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW41.java
+ * @ClassName hw.HW41.java
  * @Description 称砝码
  * @createTime 2022年01月20日 09:13:00
  */

@@ -1,9 +1,11 @@
+package hw;
+
 import java.util.Scanner;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW20.java
+ * @ClassName hw.HW20.java
  * @Description 密码验证合格程序
  * @createTime 2022年01月18日 15:47:00
  */

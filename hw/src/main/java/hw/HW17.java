@@ -1,9 +1,11 @@
+package hw;
+
 import java.util.Scanner;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW17.java
+ * @ClassName hw.HW17.java
  * @Description 坐标移动
  * @createTime 2022年01月18日 13:20:00
  */

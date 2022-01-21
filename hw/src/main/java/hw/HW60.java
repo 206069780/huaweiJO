@@ -1,9 +1,11 @@
+package hw;
+
 import java.util.Scanner;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW60.java
+ * @ClassName hw.HW60.java
  * @Description 查找组成一个偶数最接近的两个素数
  * @createTime 2022年01月20日 15:58:00
  */

@@ -1,10 +1,12 @@
+package hw;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HJ68.java
+ * @ClassName hw.HJ68.java
  * @Description 成绩排序
  * @createTime 2022年01月19日 16:50:00
  */

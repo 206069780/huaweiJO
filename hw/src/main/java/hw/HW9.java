@@ -1,9 +1,11 @@
+package hw;
+
 import java.util.*;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW9.java
+ * @ClassName hw.HW9.java
  * @Description 提取不重复的整数
  * @createTime 2022年01月19日 11:18:00
  */

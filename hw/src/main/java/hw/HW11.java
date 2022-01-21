@@ -1,10 +1,11 @@
+package hw;
 
 import java.util.*;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW11.java
+ * @ClassName hw.HW11.java
  * @Description 数字颠倒
  * @createTime 2022年01月19日 11:51:00
  */

@@ -1,3 +1,5 @@
+package hw;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -5,7 +7,7 @@ import java.util.Scanner;
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW14.java
+ * @ClassName hw.HW14.java
  * @Description 字符串排序
  * @createTime 2022年01月19日 16:38:00
  */

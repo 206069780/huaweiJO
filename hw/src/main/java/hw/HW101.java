@@ -1,3 +1,5 @@
+package hw;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -6,7 +8,7 @@ import java.util.Scanner;
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW101.java
+ * @ClassName hw.HW101.java
  * @Description 输入整型数组和排序标识，对其元素按照升序或降序进行排序
  * @createTime 2022年01月19日 15:01:00
  */

@@ -1,9 +1,11 @@
+package hw;
+
 import java.util.Scanner;
 
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW62.java
+ * @ClassName hw.HW62.java
  * @Description 查找输入整数二进制中1的个数
  * @createTime 2022年01月18日 15:32:00
  */

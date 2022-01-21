@@ -1,3 +1,5 @@
+package hw;
+
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -5,7 +7,7 @@ import java.util.Set;
 /**
  * @author lc
  * @version 1.0.0
- * @ClassName HW10.java
+ * @ClassName hw.HW10.java
  * @Description 字符个数统计
  * @createTime 2022年01月18日 13:10:00
  */
