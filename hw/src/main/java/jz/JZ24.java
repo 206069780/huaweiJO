@@ -18,26 +18,26 @@ public class JZ24 {
         ListNode node3 = new ListNode(3);
         node1.next = node2;
         node2.next = node3;
-        System.out.println(reverseListNode(node1));
+       ListNode res=  reverseListNode(node1);
+        while ( res!= null) {
+            System.out.print(res);
+            res = res.next;
+        }
 
     }
 
     private static ListNode reverseListNode(ListNode listNode) {
+        ListNode pre = null;
 
-        List<ListNode> listNodes = new ArrayList<>();
+        ListNode curr = listNode;
 
-        while (listNode != null) {
-            listNodes.add(listNode);
-            listNode = listNode.next;
+        while (curr != null) {
+            ListNode next = curr.next;
+            curr.next=pre;
+            pre = curr;
+            curr = next;
         }
-        System.out.println(listNodes);
-        ListNode head = new ListNode(-1);
-        for (int i = listNodes.size() - 1; i >= 0; i--) {
-            head = new ListNode(listNodes.get(i).val);
-            head = head.next;
-
-        }
-        return head;
+        return pre;
     }
 
 
@@ -51,7 +51,7 @@ public class JZ24 {
 
      @Override
      public String toString() {
-         return val+"";
+         return val+" ";
      }
  }
 }
