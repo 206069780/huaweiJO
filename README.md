@@ -4,9 +4,75 @@
 - NC
 - JZ
 - HW
+- HJ
 - CMB
 - ZJ
 
+
+## HJ 刷题
+
+### 已完成
+#### 已通过
+- hj.HJ6 质数因子[简单]
+> 功能:输入一个正整数，按照从小到大的顺序输出它的所有质因子（重复的也要列举）（如180的质因子为2 2 3 3 5 ）
+> 
+> 输入描述：
+> 输入一个整数
+> 
+> 输出描述：
+> 按照从小到大的顺序输出它的所有质数的因子，以空格隔开。最后一个数后面也要有空格。
+> 
+> 示例1
+> 输入：
+> 180
+> 
+> 输出：
+> 2 2 3 3 5
+
+```java
+ public static void primeNumbers(long num) {
+
+        long k = (long) Math.sqrt(num);
+
+        for (int i = 2; i <= k; i++) {
+            while (i != num) {
+                if (num % i == 0) {
+                    System.out.print(i + " ");
+                    num = num / i;
+                }else {
+                    break;
+                }
+            }
+        }
+        System.out.println(num);
+    }
+```
+- HJ15 
+- 求int型正整数在内存中存储时1的个数
+> 描述 输入一个 int 型的正整数，计算出该 int 型数据在内存中存储时 1 的个数。
+> 
+> 数据范围：保证在 32 位整型数字范围内
+> 
+> 输入描述： 输入一个整数（int类型）
+> 
+> 输出描述： 这个数转换成2进制后，输出1的个数
+```java
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNextInt()) {
+            int num = scanner.nextInt();
+            int sum = 0;
+            String res = Integer.toBinaryString(num);
+            for (int i = 0; i < res.length(); i++) {
+                if (res.charAt(i) == '1') {
+                    sum+=1;
+                }
+            }
+            System.out.println(sum);
+
+        }
+    }
+```
 ## 华为外包牛客刷题
 
 ### 未通过
