@@ -23,8 +23,20 @@ public class HW1 {
 
     private static int getLength(String str) {
 
-        String s = str.substring(str.lastIndexOf(" ") + 1, str.length());
+        String s = str.substring(str.lastIndexOf(" ") + 1).trim();
 
         return s.length();
+    }
+
+    private static int getLength2(String string) {
+        int count=0;
+        for (int i = string.length()-1; i >= 0; i--) {
+            if (string.charAt(i) == ' ') {
+                break;
+            }
+            count+=1;
+        }
+
+        return count;
     }
 }
